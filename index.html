@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Actual Materialize Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+    <title>Coffee Cafe</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <section class="fnavbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">CoffeeCafe</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#"onclick="toggleModal();">Home</a></li>
+                <li><a href="#"onclick="toggleModal();">About Us</a></li>
+                <li><a href="#"onclick="toggleModal();">Coffee</a></li>
+                <li><a href="#"onclick="toggleModal();">Contact</a></li>
+ 
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="#"onclick="toggleModal();">Home</a></li>
+            <li><a href="#"onclick="toggleModal();">About Us</a></li>
+            <li><a href="#"onclick="toggleModal();">Coffee</a></li>
+            <li><a href="#"onclick="toggleModal();">Contact</a></li>
+      </ul>
+    </section>
+
+    <section class="infomodal">
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <h4 id="info-modal-heading">Link Disabled</h4>
+                <p id="info-modal-content">Sorryy Links are Disabled</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+<!-- Jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+<!-- JS for Materialize -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- custom js  -->
+<script src="js/loader.js"></script>
+
+
+</html>
