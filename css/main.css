@@ -5,3 +5,8 @@
 .slider .indicators .indicator-item.active {
     background-color: #6f4037;
 }
+
+.move{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
