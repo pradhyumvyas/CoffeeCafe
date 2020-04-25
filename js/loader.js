@@ -3,6 +3,7 @@ $(document).ready(function(){
     $('.parallax').parallax();
     $('.sidenav').sidenav();
     $(".slider").slider({ full_width: true });
+    $('.parallax').parallax();
 })
 
 function toggleModal(){
